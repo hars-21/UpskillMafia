@@ -1,0 +1,27 @@
+body {
+  background-color: orange;
+}
+
+.head {
+  color: darkblue;
+}
+
+#bglime {
+  background-color: lime;
+}
+
+p {
+  color: white;
+}
+
+#para {
+  color: green;
+}
+
+ul li a[href="#2"] {
+  background-color: purple;
+}
+
+ul li a[href="#1"] {
+  background-color: yellow;
+}
