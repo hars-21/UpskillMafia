@@ -1,0 +1,71 @@
+body {
+	background-color: #fff;
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+#navbar {
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	padding: 10px 20px;
+}
+
+#logo {
+	font-size: 1.5em;
+}
+
+#routes {
+	width: 50%;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+ul li {
+	padding: 1rem;
+	opacity: 0.75;
+}
+
+ul li:hover {
+	opacity: 1;
+}
+
+a {
+	text-decoration: none;
+	color: #333;
+}
+
+#profile {
+	border-radius: 25px;
+}
+
+#username {
+	background-color: rgba(138, 198, 251, 0.25);
+	color: rgb(54, 158, 255);
+	border-top-left-radius: 25px;
+	border-bottom-left-radius: 25px;
+	padding: 0.75rem;
+	margin-right: -0.3rem;
+}
+
+#logout {
+	background-color: rgba(251, 138, 138, 0.25);
+	color: rgb(255, 54, 54);
+
+	border-top-right-radius: 25px;
+	border-bottom-right-radius: 25px;
+	padding: 0.75rem;
+}
+
+.container {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
