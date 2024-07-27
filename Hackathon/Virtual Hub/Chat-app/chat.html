@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Chat Application</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        #chat-container {
+            width: 25rem;
+            margin: 3rem auto;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            display: flex;
+            justify-content: space-between;
+            flex-direction: column;
+            height: 30rem;
+        }
+        #chat-profile {
+            padding: 0.6rem;
+            display: flex;
+            align-items: center;
+            padding: 1rem;
+            border: 1px solid #ccc;
+            background-color: #226941;
+        }
+        #user-img{
+            height: 2rem;
+            width: 2rem;
+            margin-right: 1rem;
+        }
+        #input-container {
+            padding: 1rem;
+            border-top: 1px solid #ccc;
+            background-color: #f9f9f9;
+            display: flex;
+            align-items: center;
+        }
+        #input-container input[type="text"] {
+            width: calc(100% - 80px);
+            padding: 0.6rem 0.75rem;
+            border: 1px solid #ccc;
+            border-radius: 20px;
+            margin-right: 0.6rem;
+        }
+        #input-container button {
+            padding: 0.5rem 1.3rem;
+            border: none;
+            border-radius: 20px;
+            background-color: #226941;
+            color: white;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div id="chat-container">
+        <div id="chat-profile">
+            <img src="assets/user.png" alt="Profile-Image" id="user-img">
+            <span id="username" style="color: #fff;">Name</span>
+        </div>
+        <div id="input-container">
+            <input type="text" id="message-input" placeholder="Type your message...">
+            <button id="send-button"><i class="fa-solid fa-paper-plane"></i></button>
+        </div>
+    </div>
+
+</body>
+</html>

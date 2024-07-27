@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Virtual Mentorship Hub</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="background">
+      <div class="circle"></div>
+      <div class="circle"></div>
+      <div class="circle"></div>
+      <div class="circle"></div>
+      <div class="circle"></div>
+      <div class="circle"></div>
+    </div>
+
+    <header>
+      <nav id="navbar">
+        <ul>
+          <li><a href="home.html" style="color: black">Home</a></li>
+          <li><a href="dashboard.html" style="color: black">Dashboard</a></li>
+          <li><a href="#" style="font-size: 1.5rem">MentorShip</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="profile.html">Profile</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section id="profile">
+      <div class="container glass" id="hero">
+        <div id="card-top"></div>
+        <div id="user-profile" class="card glass">
+          <img src="assets/user.png" alt="Profile Picture" id="profile-img" />
+          <h1 id="name" class="item">Name</h1>
+          <span id="role" class="item"
+            ><i class="fa-solid fa-bolt"></i>Mentor</span
+          >
+
+          <span class="item">CEO @abc | AI Engineer</span>
+          <span class="item">
+            <i class="fa-solid fa-location-dot"></i>Mumbai, India</span
+          >
+          <button id="edit-profile" class="btn">
+            <i class="fa-solid fa-pencil"></i>Edit Profile
+          </button>
+        </div>
+
+        <div id="user-skills" class="card glass">
+          <h2>Skills</h2>
+          <ul class="skill">
+            <li class="badge">Leadership</li>
+            <li class="badge">Team Management</li>
+            <li class="badge">Public Speaking</li>
+            <li class="badge">Product</li>
+            <a href="#all-skills">view more...</a>
+          </ul>
+          <!-- <span id="user-rating">★★★★★</span><span>(11 reviews)</span> -->
+        </div>
+      </div>
+    </section>
+
+    <section id="user-bio">
+      <div class="container glass">
+        <div id="about-user">
+          <h1 id="">About</h1>
+          <p id="user-desc">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, ea
+            magni nulla fuga rem autem quibusdam similique voluptate cupiditate
+            adipisci ex officia? Eos praesentium, explicabo modi odio
+            voluptates, nulla vitae doloremque error eius, culpa dolore.
+            Inventore perspiciatis beatae nobis consequatur. Ad esse voluptatem
+            vitae! Ad, delectus culpa! Placeat, officiis culpa.
+          </p>
+        </div>
+        <div id="all-skills">
+          <h1>Skills</h1>
+          <ul class="skill">
+            <li class="badge">Leadership</li>
+            <li class="badge">Team Management</li>
+            <li class="badge">Public Speaking</li>
+            <li class="badge">Product</li>
+            <li class="badge">Project Management</li>
+            <li class="badge">Stakeholder Management</li>
+            <li class="badge">Team Building</li>
+            <li class="badge">Problem Solving</li>
+            <li class="badge">Decision Making</li>
+            <li class="badge">Time Management</li>
+            <li class="badge">Conflict Resolution</li>
+            <li class="badge">Negotiation</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="testimonials">
+      <div class="container glass">
+        <h1 id="test">What mentees say</h1>
+        <div>
+          <div class="r-head">
+            <img
+              src="assets/user.png"
+              alt="Client profile pic"
+              id="client-img"
+            />
+            <div class="review-info">
+              <span class="c-name">Name</span>
+              <div>
+                <span class="rating">★★★★★</span>
+                <span id="date">April 4, 2024</span>
+              </div>
+            </div>
+          </div>
+          <p class="review-text">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi
+            blanditiis libero alias aspernatur? Veritatis, tempora. Assumenda
+            magni cumque aspernatur aliquid qui tempora voluptatem fuga quidem
+            perspiciatis quaerat, maiores sequi?
+          </p>
+          <hr />
+        </div>
+        <div>
+          <div class="r-head">
+            <img
+              src="assets/user.png"
+              alt="Client profile pic"
+              id="client-img"
+            />
+            <div class="review-info">
+              <span class="c-name">Name</span>
+              <div>
+                <span class="rating">★★★★★</span>
+                <span id="date">April 4, 2024</span>
+              </div>
+            </div>
+          </div>
+          <p class="review-text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima
+            aliquid accusantium eius perspiciatis repellendus laudantium
+            deserunt reprehenderit? Error, esse. Doloribus ipsum obcaecati quas
+            ipsam! Rem distinctio earum repellendus commodi cum natus quae
+            illum, doloremque, ab accusantium iste! Molestiae, maxime. Odit iure
+            quia facere veritatis quae eum.
+          </p>
+          <hr />
+        </div>
+        <div>
+          <div class="r-head">
+            <img
+              src="assets/user.png"
+              alt="Client profile pic"
+              id="client-img"
+            />
+            <div class="review-info">
+              <span class="c-name">Name</span>
+              <div>
+                <span class="rating">★★★★★</span>
+                <span id="date">April 4, 2024</span>
+              </div>
+            </div>
+          </div>
+          <p class="review-text">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi
+            blanditiis libero alias aspernatur? Veritatis, tempora. Assumenda
+            magni cumque aspernatur aliquid qui tempora voluptatem fuga quidem
+            perspiciatis quaerat, maiores sequi? Lorem ipsum dolor sit amet
+            consectetur adipisicing elit. Minima aliquid accusantium eius
+            perspiciatis repellendus laudantium deserunt reprehenderit? Error,
+            esse. Doloribus ipsum obcaecati quas ipsam! Rem distinctio earum
+            repellendus commodi cum natus quae illum, doloremque, ab accusantium
+            iste! Molestiae, maxime. Odit iure quia facere veritatis quae eum.
+          </p>
+          <hr />
+        </div>
+      </div>
+    </section>
+
+    <footer></footer>
+  </body>
+</html>
