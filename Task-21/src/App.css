@@ -1,0 +1,96 @@
+h1 {
+	text-align: center;
+	color: rgb(169, 130, 212);
+}
+
+.card {
+	width: 215px;
+	height: 254px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	margin: 2rem 3rem;
+	padding: 5px 15px;
+	background-color: red;
+	border-radius: 10px;
+	border: none;
+	color: white;
+	position: relative;
+	cursor: pointer;
+	font-weight: 900;
+	transition-duration: 0.2s;
+	background: linear-gradient(0deg, #000, #272727);
+}
+
+.card:before,
+.card:after {
+	content: "";
+	position: absolute;
+	left: -2px;
+	top: -2px;
+	border-radius: 10px;
+	background: linear-gradient(
+		45deg,
+		#fb0094,
+		#0000ff,
+		#00ff00,
+		#ffff00,
+		#ff0000,
+		#fb0094,
+		#0000ff,
+		#00ff00,
+		#ffff00,
+		#ff0000
+	);
+	background-size: 400%;
+	width: calc(100% + 4px);
+	height: calc(100% + 4px);
+	z-index: -1;
+	animation: steam 20s linear infinite;
+}
+
+@keyframes steam {
+	0% {
+		background-position: 0 0;
+	}
+
+	50% {
+		background-position: 400% 0;
+	}
+
+	100% {
+		background-position: 0 0;
+	}
+}
+
+.card:after {
+	filter: blur(1px);
+}
+
+img {
+	height: 100px;
+	width: 100px;
+}
+
+h6 {
+	font-size: 1.3rem;
+	margin: 1rem;
+	color: mediumslateblue;
+}
+
+p {
+	font-size: 1rem;
+	margin: 0.5rem;
+	font-weight: 500;
+	text-align: center;
+	color: rgb(224, 194, 255);
+}
+
+.container {
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+	padding: 2rem;
+}
