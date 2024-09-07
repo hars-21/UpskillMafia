@@ -1,8 +1,5 @@
-# React + Vite
+# Task 22
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Understanding custom Hooks concept in React.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+View the deployed website [here.](https://transcendent-starlight-69a953.netlify.app/)
