@@ -1,0 +1,181 @@
+.navbar {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding: 20px;
+  background-color: #f0f0f0;
+  position: fixed;
+  top: 0;
+  width: 95%;
+  z-index: 1000;
+}
+
+.logo img {
+  width: 50px;
+  margin-right: 2rem;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+}
+
+.nav-links li {
+  margin-right: 20px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #333;
+}
+
+.product-card {
+  border: 1px solid #ccc;
+  padding: 20px;
+  text-align: center;
+  margin: 1rem;
+  width: 200px;
+}
+
+.product-image {
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+}
+
+.product-name {
+  margin-top: 10px;
+}
+
+.product-price {
+  margin-top: 5px;
+}
+
+.add-to-cart-button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.tab {
+  width: 55%;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 2rem;
+  flex-wrap: wrap;
+  align-items: center;
+  padding-top: 8rem;
+}
+
+.shopping-cart {
+  border: 1px solid #ccc;
+  padding: 20px;
+  width: 35%;
+  max-height: 30rem;
+  position: fixed;
+  right: 1rem;
+  top: 10rem;
+  border-radius: 10px;
+  overflow-y: auto;
+  background: #ddd;
+}
+
+.shopping-cart ul {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 2rem;
+}
+
+.cartItems {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.cartImage {
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+  margin-right: 1rem;
+}
+
+.itemDetails {
+  align-self: flex-start;
+  width: 15rem;
+}
+
+.action button {
+  background-color: #f44336;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.action span {
+  padding: 0.75rem;
+}
+
+.payment-btn {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 8px;
+  background-color: #4caf50;
+  color: white;
+  cursor: pointer;
+  transition: transform 0.5s;
+  margin: 0 auto;
+  width: 50%;
+  text-decoration: none;
+}
+
+.payment-btn:hover {
+  transform: scale(1.1);
+  color: #fff;
+}
+
+.gateway {
+  width: 55%;
+  margin-top: 7rem;
+}
+
+.gateway h1 {
+  text-align: center;
+}
+
+.paymentForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 2rem;
+  gap: 1rem;
+  border: 2px solid #555;
+  border-radius: 25px;
+  margin: 1rem 3rem;
+}
+
+.paymentForm input {
+  padding: 0.5rem;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.paymentForm label {
+  font-weight: bold;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.totalPrice {
+  text-align: center;
+  margin-top: 1rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
