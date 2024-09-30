@@ -14,12 +14,10 @@ const App = () => {
 
   const toPayment = () => {
     setAction("payment");
-    // window.location.href = "/payment";
   };
 
   const toCart = () => {
     setAction("cart");
-    // window.location.href = "/";
   };
 
   const handleAddToCart = (product) => {
